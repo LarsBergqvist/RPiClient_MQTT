@@ -36,4 +36,3 @@ if __name__ == '__main__':
     publish_message("Home/" + computer_name + "/DiskUsagePercent", get_disk_usage())
     publish_message("Home/" + computer_name + "/MemoryUsagePercent", get_memory_usage())
     publish_message("Home/" + computer_name + "/CpuUsagePercent", get_cpu_usage())
-
